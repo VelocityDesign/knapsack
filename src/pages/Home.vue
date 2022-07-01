@@ -1,9 +1,11 @@
 <template>
-  <h1>Home</h1>
-  <router-link to="/random">Go somewhere</router-link>
+  <Cover>
+    Find your stuff again.
+  </Cover>
 </template>
 
 <script>
+import Cover from '../components/Cover.vue';
 export default {
   name: "Home",
 };
